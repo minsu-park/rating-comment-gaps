@@ -1,0 +1,42 @@
+# macOS and Windows metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter and IPython state
+.ipynb_checkpoints/
+.ipython/
+
+# Test, coverage, and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.py
+
+# Local scratch outputs (released PDFs in figures/ remain tracked)
+tmp/
+scratch/

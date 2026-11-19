@@ -1,0 +1,37 @@
+sample,group,reviews,instructors
+A. Full star sample,White_Male,2135827,192404
+A. Full star sample,White_Female,1431284,143703
+A. Full star sample,Black_Male,14780,1393
+A. Full star sample,Black_Female,7973,890
+A. Full star sample,Hispanic_Male,138060,13641
+A. Full star sample,Hispanic_Female,111433,11949
+A. Full star sample,Asian_Male,124936,12260
+A. Full star sample,Asian_Female,86531,8921
+A. Full star sample,Total,4050824,385161
+B. Star text sample,White_Male,1727431,184755
+B. Star text sample,White_Female,1175585,137731
+B. Star text sample,Black_Male,12302,1335
+B. Star text sample,Black_Female,6614,843
+B. Star text sample,Hispanic_Male,114854,12998
+B. Star text sample,Hispanic_Female,94005,11473
+B. Star text sample,Asian_Male,102049,11727
+B. Star text sample,Asian_Female,72138,8549
+B. Star text sample,Total,3304978,369411
+C. Binary sample,White_Male,239991,67185
+C. Binary sample,White_Female,168154,50789
+C. Binary sample,Black_Male,2165,593
+C. Binary sample,Black_Female,1257,367
+C. Binary sample,Hispanic_Male,23120,5824
+C. Binary sample,Hispanic_Female,18435,5061
+C. Binary sample,Asian_Male,19376,5205
+C. Binary sample,Asian_Female,14612,3816
+C. Binary sample,Total,487110,138840
+D. Binary text sample,White_Male,210584,63330
+D. Binary text sample,White_Female,148341,48035
+D. Binary text sample,Black_Male,1888,551
+D. Binary text sample,Black_Female,1105,345
+D. Binary text sample,Hispanic_Male,20304,5529
+D. Binary text sample,Hispanic_Female,16310,4808
+D. Binary text sample,Asian_Male,16939,4903
+D. Binary text sample,Asian_Female,12915,3622
+D. Binary text sample,Total,428386,131123

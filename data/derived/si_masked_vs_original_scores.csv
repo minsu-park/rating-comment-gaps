@@ -1,0 +1,8 @@
+group,observed,text_predicted_masked,text_predicted_original,additional_masked,additional_original
+White_Female,-0.0344,0.0011,0.0497,-0.0355,-0.0841
+Black_Male,-0.288,-0.1237,-0.1274,-0.1644,-0.1606
+Black_Female,-0.2837,-0.1163,-0.0728,-0.1674,-0.2109
+Hispanic_Male,-0.0945,-0.0233,-0.0095,-0.0713,-0.0851
+Hispanic_Female,-0.0976,-0.0047,0.0538,-0.093,-0.1514
+Asian_Male,-0.1707,-0.0621,-0.06,-0.1086,-0.1107
+Asian_Female,-0.1541,-0.0466,-0.002,-0.1075,-0.1521
