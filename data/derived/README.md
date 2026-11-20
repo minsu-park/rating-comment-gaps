@@ -46,7 +46,7 @@ Associations between the seven text measures and each outcome (Fig. 1A shows the
 | `outcome` | `Star rating` or `Would take again` |
 | `n` | Analysis-sample review count |
 
-The five embedding measures were scored on instructor-directed sentences after masking names and gendered terms. Positive and negative affect are LIWC-22 tone measures computed from the full review. Joint estimates come from the model that also includes the race-by-gender indicators and are the weights behind `text_predicted` in `figure1_b.csv` and `figure2_b.csv`.
+The five embedding measures were scored on instructor-directed sentences after masking names and gendered terms. Positive and negative affect are LIWC-22 tone measures computed from the full comment. Joint estimates come from the model that also includes the race-by-gender indicators and are the weights behind `text_predicted` in `figure1_b.csv` and `figure2_b.csv`.
 
 ## `figure1_b.csv` and `figure2_b.csv`
 
@@ -64,6 +64,16 @@ Same-sample gaps for Fig. 2A. Both outcomes were standardized within the same 48
 
 The White-men coordinates are `(0, 0)` by construction. The plotted error bars are calculated as the estimate plus or minus 1.96 times its standard error.
 
+## `si_bootstrap_correlation.csv`
+
+Bootstrap replicates for the 95% confidence interval of the Fig. 2A correlation. Each of 1,000 replicates resamples instructors with replacement from the 487,110-review sample (random seed 20261120), re-estimates the star and would-take-again gap models, and correlates the two sets of gaps across the seven nonreference groups. The interval is the 2.5th to 97.5th percentile of `r`.
+
+| Column | Definition |
+|---|---|
+| `replicate` | Replicate number |
+| `r` | Correlation between star and would-take-again gaps across the seven nonreference groups |
+| `r_without_black` | The same correlation across the five groups other than Black men and Black women |
+
 ## `si_sample_counts.csv`
 
 | Column | Definition |
@@ -78,7 +88,7 @@ Additional star-rating gaps in the star text sample under each sensitivity check
 
 | Column | Definition |
 |---|---|
-| `check` | Main specification; standard errors clustered by institution; instructor weighting (1/n_j); pronoun-confirmed gender; surname probability thresholds of 0.85, 0.90, and 0.95; mixed model with crossed instructor and institution intercepts; or separate models within the six largest disciplines |
+| `check` | Main specification; LIWC-22 emotion words in place of tone; standard errors clustered by institution; instructor weighting (1/n_j); pronoun-confirmed gender; surname probability thresholds of 0.85, 0.90, and 0.95; mixed model with crossed instructor and institution intercepts; or separate models within the six largest disciplines |
 | `text_model` | `Seven measures` or `Supervised full-comment model` |
 | `observed`, `observed_se` | Observed gap and its standard error under that check |
 | `additional`, `additional_se` | Additional gap and its standard error |
@@ -88,6 +98,16 @@ Additional star-rating gaps in the star text sample under each sensitivity check
 ## `si_text_measure_vif.csv` and `si_text_measure_correlations.csv`
 
 Variance inflation factors for the seven text measures (`vif_masked` for the gender-neutralized scores used in the paper; `vif_original` for the original scores) and their pairwise correlation matrix for the gender-neutralized scores.
+
+## `si_text_weights_alternative_scores.csv`
+
+The text-association models of `figure1_a.csv`, re-estimated on the same samples and with the same specification (race-by-gender indicators, controls, and fixed effects) using alternative text scores.
+
+| Column | Definition |
+|---|---|
+| `scores` | `Original (unmasked) embedding scores`: the five embedding measures scored before masking names and gendered terms; or `LIWC emotion words in place of tone`: the masked embedding measures with LIWC-22 positive and negative emotion words replacing positive and negative tone |
+| `dimension` | Text measure; in the emotion-word rows, `Positive emotion` and `Negative emotion` replace positive and negative affect |
+| `specification`, `estimate`, `se`, `lower`, `upper`, `outcome`, `n` | As in `figure1_a.csv` |
 
 ## `si_masked_vs_original_scores.csv`
 

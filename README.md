@@ -25,7 +25,7 @@ Open the notebooks and run every cell from top to bottom:
 |---|---|---|
 | `code/Figure_1.ipynb` | `figures/Figure1.pdf` | Main-text Figure 1 |
 | `code/Figure_2.ipynb` | `figures/Figure2.pdf` | Main-text Figure 2 |
-| `code/Robustness_checks.ipynb` | Printed tables and checks | Supervised text model, text-measure diagnostics, cross-format comparison, and sensitivity analyses |
+| `code/robustness_checks.ipynb` | Printed tables and checks | Supervised text model, text-measure diagnostics, alternative text scores, cross-format comparison, and sensitivity analyses |
 
 The figure notebooks display each panel in the notebook client and write vector PDFs. The robustness notebook prints the released estimates and checks each corresponding statement in the paper and SI Appendix. The working directory may be either the repository root or `code/`; the notebooks search upward for `data/derived/`.
 
@@ -62,6 +62,8 @@ The aggregate files map to the paper as follows:
 | `si_sample_counts.csv` | Reviews and instructors by sample and group (SI Appendix, *Analysis Samples*) |
 | `si_supervised_decomposition.csv` | Star and binary decompositions with the supervised full-comment model |
 | `si_text_measure_vif.csv`, `si_text_measure_correlations.csv` | Collinearity among the seven text measures |
+| `si_text_weights_alternative_scores.csv` | Text-association models with original embedding scores and with LIWC-22 emotion words |
+| `si_bootstrap_correlation.csv` | Instructor-bootstrap replicates of the Fig. 2A correlation |
 | `si_sensitivity_additional_gaps.csv` | Additional star gaps under each sensitivity check and within disciplines |
 | `si_masked_vs_original_scores.csv` | Star decomposition with gender-neutralized versus original embedding scores |
 | `si_pronoun_gender_agreement.csv` | Agreement between name-inferred gender and students' pronouns |
@@ -102,16 +104,25 @@ definitions, and interpretation.
 
 ## Data access and disclosure
 
-The underlying review-level records were obtained from the original data
-provider for academic research. They are not redistributed here because the
-authors do not have authority to release records containing instructor
-identifiers and sensitive inferred attributes. Requests for the source data
-should be directed to the original provider and remain subject to applicable
-permissions and institutional review.
+The reviews analyzed in the paper come from the RateMyProfessor.com data set
+compiled by He (2020), available on Mendeley Data
+([doi:10.17632/fvtfjyvw7d.2](https://doi.org/10.17632/fvtfjyvw7d.2)). The
+review-level analysis files are not redistributed here because they link
+instructor identifiers to inferred demographic attributes. Researchers who
+wish to work with the reviews should obtain them from the original source.
 
 ## Citation
 
-When using any part of the data for a publication or commercial purpose, please cite the source of the data: [PLACEHOLDER]
+If you use the code or aggregate estimates in this repository, please cite
+the paper:
+
+> [PLACEHOLDER: citation for the paper]
+
+If you use the underlying review data, please also cite the data source:
+
+> He, J. (2020). *Big Data Set from RateMyProfessor.com for Professors' Teaching
+> Evaluation* (Version 2) [Dataset]. Mendeley Data.
+> https://doi.org/10.17632/fvtfjyvw7d.2
 
 ## License
 

@@ -1,6 +1,6 @@
 # One-command generator: python code/draw_figures.py
 reportlab>=4.0,<5
 
-# Notebooks (in-client PDF previews): Figure_1.ipynb, Figure_2.ipynb, Robustness_checks.ipynb
+# Notebooks (in-client PDF previews): Figure_1.ipynb, Figure_2.ipynb, robustness_checks.ipynb
 pymupdf>=1.24,<2
 ipykernel>=6.29,<7

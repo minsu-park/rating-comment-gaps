@@ -1,0 +1,57 @@
+scores,dimension,specification,estimate,se,lower,upper,outcome,n
+Original (unmasked) embedding scores,Warmth,Marginal (each alone),0.598470246100058,0.0005739971629319,0.597345211660712,0.599595280539405,Star rating,3304978
+Original (unmasked) embedding scores,Competence,Marginal (each alone),0.577982191923495,0.000574263006421,0.576856636430909,0.57910774741608,Star rating,3304978
+Original (unmasked) embedding scores,Brilliance,Marginal (each alone),0.359129234353841,0.0005938590982337,0.357965270521303,0.360293198186379,Star rating,3304978
+Original (unmasked) embedding scores,Effort,Marginal (each alone),0.54619876743695,0.0005853297835663,0.545051521061159,0.54734601381274,Star rating,3304978
+Original (unmasked) embedding scores,Complaint severity,Marginal (each alone),-0.175298901073855,0.0007094592652972,-0.176689441233838,-0.173908360913873,Star rating,3304978
+Original (unmasked) embedding scores,Positive affect,Marginal (each alone),0.370044504972859,0.0008736571782189,0.368332136903549,0.371756873042168,Star rating,3304978
+Original (unmasked) embedding scores,Negative affect,Marginal (each alone),-0.356568683367075,0.0011999705352527,-0.35892062561617,-0.354216741117979,Star rating,3304978
+Original (unmasked) embedding scores,Warmth,Joint (all seven),0.292611965810351,0.000987039195722,0.290677368986736,0.294546562633967,Star rating,3304978
+Original (unmasked) embedding scores,Competence,Joint (all seven),0.139581831447179,0.0011178694822001,0.137390807262067,0.141772855632291,Star rating,3304978
+Original (unmasked) embedding scores,Brilliance,Joint (all seven),0.0704863438323584,0.0005896110543539,0.0693307061658247,0.071641981498892,Star rating,3304978
+Original (unmasked) embedding scores,Effort,Joint (all seven),0.0657638620024515,0.0010234933008146,0.0637578151328547,0.0677699088720483,Star rating,3304978
+Original (unmasked) embedding scores,Complaint severity,Joint (all seven),-0.0221937143318799,0.0005250830949013,-0.0232228771978865,-0.0211645514658733,Star rating,3304978
+Original (unmasked) embedding scores,Positive affect,Joint (all seven),0.107341409640607,0.0005386326308393,0.106285689684162,0.108397129597052,Star rating,3304978
+Original (unmasked) embedding scores,Negative affect,Joint (all seven),-0.119442886628174,0.0006752092697508,-0.120766296796886,-0.118119476459462,Star rating,3304978
+Original (unmasked) embedding scores,Warmth,Marginal (each alone),0.551956759356814,0.0013775974349903,0.549256668384233,0.554656850329395,Would take again,428386
+Original (unmasked) embedding scores,Competence,Marginal (each alone),0.531693189895486,0.0013924398251337,0.528964007838224,0.534422371952748,Would take again,428386
+Original (unmasked) embedding scores,Brilliance,Marginal (each alone),0.336893139896292,0.0015485656715395,0.333857951180074,0.339928328612509,Would take again,428386
+Original (unmasked) embedding scores,Effort,Marginal (each alone),0.502231603615555,0.0014306180690403,0.499427592200236,0.505035615030874,Would take again,428386
+Original (unmasked) embedding scores,Complaint severity,Marginal (each alone),-0.147208496972336,0.0018008993011616,-0.150738259602613,-0.14367873434206,Would take again,428386
+Original (unmasked) embedding scores,Positive affect,Marginal (each alone),0.356234061096619,0.0023178001665053,0.351691172770268,0.36077694942297,Would take again,428386
+Original (unmasked) embedding scores,Negative affect,Marginal (each alone),-0.344204101453288,0.0035675631955922,-0.351196525316649,-0.337211677589928,Would take again,428386
+Original (unmasked) embedding scores,Warmth,Joint (all seven),0.258282804995659,0.0027312154185705,0.252929622775261,0.263635987216057,Would take again,428386
+Original (unmasked) embedding scores,Competence,Joint (all seven),0.137154869796925,0.0030317708437845,0.131212598943107,0.143097140650742,Would take again,428386
+Original (unmasked) embedding scores,Brilliance,Joint (all seven),0.0642763870514119,0.0016379610598045,0.061065983374195,0.0674867907286288,Would take again,428386
+Original (unmasked) embedding scores,Effort,Joint (all seven),0.047502250044027,0.0028218801152506,0.0419713650181358,0.0530331350699183,Would take again,428386
+Original (unmasked) embedding scores,Complaint severity,Joint (all seven),-0.0146753402804142,0.0014729703226796,-0.0175623621128663,-0.0117883184479621,Would take again,428386
+Original (unmasked) embedding scores,Positive affect,Joint (all seven),0.126780737608245,0.0015608123746914,0.12372154535385,0.129839929862641,Would take again,428386
+Original (unmasked) embedding scores,Negative affect,Joint (all seven),-0.130956716281299,0.0020470621380755,-0.134968958071927,-0.126944474490671,Would take again,428386
+LIWC emotion words in place of tone,Warmth,Marginal (each alone),0.594898375394017,0.0005641103070991,0.593792719192103,0.596004031595932,Star rating,3304978
+LIWC emotion words in place of tone,Competence,Marginal (each alone),0.578213406430419,0.00056282246011,0.577110274408604,0.579316538452235,Star rating,3304978
+LIWC emotion words in place of tone,Brilliance,Marginal (each alone),0.315612701514546,0.0005794529650796,0.31447697370299,0.316748429326102,Star rating,3304978
+LIWC emotion words in place of tone,Effort,Marginal (each alone),0.556823045077352,0.0005777789402231,0.555690598354515,0.557955491800189,Star rating,3304978
+LIWC emotion words in place of tone,Complaint severity,Marginal (each alone),-0.155877354574539,0.0007129551893488,-0.157274746745662,-0.154479962403415,Star rating,3304978
+LIWC emotion words in place of tone,Positive emotion,Marginal (each alone),0.216419747528857,0.0008128478533387,0.214826565736313,0.218012929321401,Star rating,3304978
+LIWC emotion words in place of tone,Negative emotion,Marginal (each alone),-0.224424054967644,0.0010148616364816,-0.226413183775149,-0.22243492616014,Star rating,3304978
+LIWC emotion words in place of tone,Warmth,Joint (all seven),0.31844701102177,0.001051178066994,0.316386702010462,0.320507320033078,Star rating,3304978
+LIWC emotion words in place of tone,Competence,Joint (all seven),0.184863530260009,0.0011931996403109,0.182524858965,0.187202201555019,Star rating,3304978
+LIWC emotion words in place of tone,Brilliance,Joint (all seven),0.0376042286259569,0.0005755158261251,0.0364762176067516,0.0387322396451622,Star rating,3304978
+LIWC emotion words in place of tone,Effort,Joint (all seven),0.0846963769207825,0.0011372665805101,0.0824673344229826,0.0869254194185824,Star rating,3304978
+LIWC emotion words in place of tone,Complaint severity,Joint (all seven),-0.0017886773035707,0.0005461738788847,-0.0028591781061847,-0.0007181765009566,Star rating,3304978
+LIWC emotion words in place of tone,Positive emotion,Joint (all seven),0.0674364079480964,0.0004647017211226,0.066525592574696,0.0683472233214968,Star rating,3304978
+LIWC emotion words in place of tone,Negative emotion,Joint (all seven),-0.0504082647429262,0.0005303164619618,-0.0514476850083715,-0.0493688444774809,Star rating,3304978
+LIWC emotion words in place of tone,Warmth,Marginal (each alone),0.550887507885335,0.001348795549017,0.548243868609261,0.553531147161408,Would take again,428386
+LIWC emotion words in place of tone,Competence,Marginal (each alone),0.531495508266286,0.0013723174104703,0.528805766141764,0.534185250390808,Would take again,428386
+LIWC emotion words in place of tone,Brilliance,Marginal (each alone),0.290548368087587,0.0015257856336427,0.287557828245647,0.293538907929527,Would take again,428386
+LIWC emotion words in place of tone,Effort,Marginal (each alone),0.513893548075723,0.0014094581736306,0.511131010055407,0.516656086096039,Would take again,428386
+LIWC emotion words in place of tone,Complaint severity,Marginal (each alone),-0.122441848420124,0.0018042979372889,-0.12597827237721,-0.118905424463037,Would take again,428386
+LIWC emotion words in place of tone,Positive emotion,Marginal (each alone),0.199820434803818,0.0022067993013166,0.195495108173237,0.204145761434398,Would take again,428386
+LIWC emotion words in place of tone,Negative emotion,Marginal (each alone),-0.216906317438252,0.0028274071335439,-0.222448035419998,-0.211364599456506,Would take again,428386
+LIWC emotion words in place of tone,Warmth,Joint (all seven),0.301074362276198,0.0028849229448089,0.295419913304372,0.306728811248023,Would take again,428386
+LIWC emotion words in place of tone,Competence,Joint (all seven),0.173231477897267,0.0032611577178739,0.166839608770234,0.1796233470243,Would take again,428386
+LIWC emotion words in place of tone,Brilliance,Joint (all seven),0.0347489825157378,0.0015877446606295,0.031637002980904,0.0378609620505716,Would take again,428386
+LIWC emotion words in place of tone,Effort,Joint (all seven),0.0705839693840994,0.003139326997595,0.064430888468813,0.0767370502993857,Would take again,428386
+LIWC emotion words in place of tone,Complaint severity,Joint (all seven),0.011174183150904,0.0015220358349138,0.0081909929144727,0.0141573733873352,Would take again,428386
+LIWC emotion words in place of tone,Positive emotion,Joint (all seven),0.066002357505012,0.0013298317620627,0.0633958872513691,0.0686088277586549,Would take again,428386
+LIWC emotion words in place of tone,Negative emotion,Joint (all seven),-0.0539702158246337,0.0014999650705491,-0.05691014736291,-0.0510302842863573,Would take again,428386
