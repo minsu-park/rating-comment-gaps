@@ -113,16 +113,7 @@ wish to work with the reviews should obtain them from the original source.
 
 ## Citation
 
-If you use the code or aggregate estimates in this repository, please cite
-the paper:
-
-> [PLACEHOLDER: citation for the paper]
-
-If you use the underlying review data, please also cite the data source:
-
-> He, J. (2020). *Big Data Set from RateMyProfessor.com for Professors' Teaching
-> Evaluation* (Version 2) [Dataset]. Mendeley Data.
-> https://doi.org/10.17632/fvtfjyvw7d.2
+> [PLACEHOLDER: Citation for the Paper]
 
 ## License
 
