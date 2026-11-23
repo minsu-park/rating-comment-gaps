@@ -2,7 +2,7 @@
 
 Replication materials for ***Ratings carry larger demographic gaps than words in the same evaluations*** by Chao Yu and Minsu Park.
 
-This repository reproduces the two main-text figures and the numbers reported for the robustness checks from aggregate estimates. It does **not** re-estimate the models from review-level records and does not contain review text, instructor names, individual demographic classifications, or licensed LIWC dictionaries.
+This repository reproduces the two main-text figures and the numbers reported for the robustness checks from aggregate estimates, and it includes the materials of the sentence-extraction validation study. It does **not** re-estimate the models from review-level records and does not contain review text (apart from the six reviews shown to validation participants, with names masked), instructor names, individual demographic classifications, or licensed LIWC dictionaries.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ Open the notebooks and run every cell from top to bottom:
 |---|---|---|
 | `code/Figure_1.ipynb` | `figures/Figure1.pdf` | Main-text Figure 1 |
 | `code/Figure_2.ipynb` | `figures/Figure2.pdf` | Main-text Figure 2 |
-| `code/robustness_checks.ipynb` | Printed tables and checks | Supervised text model, text-measure diagnostics, alternative text scores, cross-format comparison, and sensitivity analyses |
+| `code/robustness_checks.ipynb` | Printed tables and checks | Supervised text model, text-measure diagnostics, alternative text scores, cross-format comparison, sensitivity analyses, and sentence-extraction validation |
 
 The figure notebooks display each panel in the notebook client and write vector PDFs. The robustness notebook prints the released estimates and checks each corresponding statement in the paper and SI Appendix. The working directory may be either the repository root or `code/`; the notebooks search upward for `data/derived/`.
 
@@ -39,6 +39,17 @@ python code/draw_figures.py
 
 `draw_figures.py` runs the same drawing code as the two figure notebooks and writes identical PDFs to `figures/Figure1.pdf` and `figures/Figure2.pdf`.
 
+### Sentence-extraction validation
+
+`sentence_extraction_validation/` holds the human-rating study that validates the instructor-directed sentence extraction: de-identified ratings from 60 participants, the six stimuli, the survey file, and the analysis code. Its own [README](sentence_extraction_validation/README.md) describes the design and files. To reproduce its results and figure, run from that folder (R with `data.table` and `ggplot2`; `lmerTest` for the optional mixed model):
+
+```bash
+cd sentence_extraction_validation
+Rscript code/02_analysis.R
+```
+
+The robustness notebook recomputes the numbers reported in the SI Appendix from the same ratings, using only the Python standard library.
+
 ## Repository contents
 
 ```text
@@ -46,6 +57,8 @@ rating-comment-gaps/
 ├── code/                 Figure and robustness notebooks, command-line renderer
 ├── data/derived/         Disclosure-safe aggregate estimates
 ├── figures/              Vector PDFs generated from those estimates
+├── sentence_extraction_validation/
+│                         Human-rating validation of the sentence extraction
 ├── LICENSE               MIT license for the repository's code
 ├── README.md             Package overview and instructions
 └── requirements.txt      Python dependencies

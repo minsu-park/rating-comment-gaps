@@ -4,3 +4,6 @@ reportlab>=4.0,<5
 # Notebooks (in-client PDF previews): Figure_1.ipynb, Figure_2.ipynb, robustness_checks.ipynb
 pymupdf>=1.24,<2
 ipykernel>=6.29,<7
+
+# The sentence-extraction validation (sentence_extraction_validation/) uses R:
+# data.table and ggplot2, plus lmerTest for the optional mixed model.

@@ -1,0 +1,28 @@
+review,domain,option,method,span_number,span_text
+R1,Airbnb,A,Dictionary,1,[name]'s place is great
+R1,Airbnb,A,Dictionary,2,"The room was comfortable and they have Netflix in the room, which is a nice touch"
+R1,Airbnb,B,LLM,1,[name]'s place is great
+R1,Airbnb,B,LLM,2,[name] and [name] are amazing hosts
+R2,Airbnb,A,Dictionary,1,"[name]'s apartment is very well located, just a few blocks from the 6 train. The area is safe, with lots of restaurants (just one block from the famous J.G. Melon) and take away places (starbucks, pain quotidien, pick a bagel)."
+R2,Airbnb,A,Dictionary,2,"The apartment is small but cosy, perfect for one person or a couple. [name] couldn't be there, but her lovely parents were present to welcome me, despite the unsocial time I arrived. They were very nice and helpful"
+R2,Airbnb,B,LLM,1,"[name]'s apartment is very well located, just a few blocks from the 6 train."
+R2,Airbnb,B,LLM,2,"[name] couldn't be there, but her lovely parents were present to welcome me, despite the unsocial time I arrived."
+R2,Airbnb,B,LLM,3,They were very nice and helpful! I had a wonderful stay and would defenitly recommend this place.
+R3,Airbnb,A,LLM,1,"I was a bit busy the whole time that i was there so i didnt have much time to bond with the host, but the time that i did spend in the apt. was lovely"
+R3,Airbnb,A,LLM,2,"I think this place is wonderful, clean, and quite"
+R3,Airbnb,B,Dictionary,1,"I was a bit busy the whole time that i was there so i didnt have much time to bond with the host, but the time that i did spend in the apt"
+R4,Professor,A,Dictionary,1,This instructor has a relaxed yet structured and fair manner in his approach
+R4,Professor,A,Dictionary,2,I highly recommend him
+R4,Professor,B,LLM,1,He has a very diverse way of teaching and making everyone feel equal am part of a group
+R4,Professor,B,LLM,2,This instructor has a relaxed yet structured and fair manner in his approach
+R4,Professor,B,LLM,3,Got much more out of this class than expected
+R5,Professor,A,LLM,1,Mr. [name] is a really good teacher. He gives plenty of example problems on the board so we can understand what's going on. He provides his own scanned copies of his answer keys
+R5,Professor,B,Dictionary,1,I had him for Statics
+R5,Professor,B,Dictionary,2,I started out with an A in his class for a month or so but my grade started to slip because I was being overwhelmed with the 4 other classes I had.
+R5,Professor,B,Dictionary,3,He gives plenty of example problems on the board so we can understand what's going on.
+R6,Professor,A,Dictionary,1,"I took him for bio 101, you would think it'd be easy."
+R6,Professor,A,Dictionary,2,The average for the first two exams was a 65%.
+R6,Professor,A,Dictionary,3,"And to make things worst he whispers when he teachs, reads straight from the powerpoint and wears the same shark shirt everyday"
+R6,Professor,A,Dictionary,4,NEVER TAKE HIS CLASSSS
+R6,Professor,B,LLM,1,Probably the worst teacher I have EVER had.
+R6,Professor,B,LLM,2,"And to make things worst he whispers when he teachs, reads straight from the powerpoint and wears the same shark shirt everyday! NEVER TAKE HIS CLASSSS!"
