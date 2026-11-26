@@ -24,6 +24,8 @@
   "within_r2_seven_measures": 0.4817784,
   "within_r2_supervised": 0.7073,
   "supervised_out_of_fold_corr2": 0.6618692014628967,
+  "within_r2_supervised_unpenalized_groups": 0.708,
+  "supervised_unpenalized_groups_out_of_fold_corr2": 0.6628939988544077,
   "pronoun_gender_agreement": 0.986,
   "wru_namePrism_label_agreement_reported": 0.995,
   "genderize_gender_agreement_reported": 0.989

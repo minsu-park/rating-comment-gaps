@@ -14,7 +14,7 @@ These files are disclosure-safe outputs from the restricted review-level analysi
 
 ## Decomposition columns
 
-`figure1_b.csv`, `figure2_b.csv`, and `si_supervised_decomposition.csv` share these columns:
+`figure1_b.csv`, `figure2_b.csv`, `si_supervised_decomposition.csv`, and `si_supervised_unpenalized_groups.csv` share these columns:
 
 | Column | Definition |
 |---|---|
@@ -30,7 +30,7 @@ These files are disclosure-safe outputs from the restricted review-level analysi
 | `outcome` | `Star rating (SD)` or `Would take again (percentage points)` |
 | `n` | Analysis-sample review count: 3,304,978 or 428,386 |
 
-The identity `observed = text_predicted + additional` holds exactly. A negative `additional` value means that the group is rated lower than the content of its comments predicts. `si_supervised_decomposition.csv` adds `text_model`, which identifies the supervised full-comment model.
+The identity `observed = text_predicted + additional` holds exactly. A negative `additional` value means that the group is rated lower than the content of its comments predicts. `si_supervised_decomposition.csv` adds `text_model`, which identifies the supervised full-comment model. `si_supervised_unpenalized_groups.csv` adds the same column for the robustness check in which the supervised model's text weights were estimated with the race-by-gender indicators included in the ridge regression and left unpenalized. Neither supervised file reports a standard error for `text_predicted`.
 
 ## `figure1_a.csv`
 
@@ -124,4 +124,4 @@ Star decomposition with gender-neutralized (`_masked`) and original (`_original`
 
 ## `main_results_summary.json`
 
-Stores sample sizes and instructor counts for the four samples, the full-sample star mean and SD, the White-men yes rates in the binary samples, the Fig. 2A correlations (all eight cells, seven nonreference groups, and without the two Black groups), the range of binary-to-star gap ratios and corresponding percentage reductions, the similarity of the star and binary joint text weights, within-R² for the seven-measure and supervised models, the supervised model's out-of-fold squared correlation, the pronoun agreement rate, and the reported agreement rates of the cross-check classifiers.
+Stores sample sizes and instructor counts for the four samples, the full-sample star mean and SD, the White-men yes rates in the binary samples, the Fig. 2A correlations (all eight cells, seven nonreference groups, and without the two Black groups), the range of binary-to-star gap ratios and corresponding percentage reductions, the similarity of the star and binary joint text weights, within-R² for the seven-measure and supervised models (including the supervised model estimated with unpenalized group indicators), the out-of-fold squared correlation of each supervised model, the pronoun agreement rate, and the reported agreement rates of the cross-check classifiers.

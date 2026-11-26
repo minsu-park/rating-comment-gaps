@@ -74,6 +74,7 @@ The aggregate files map to the paper as follows:
 | `figure2_b.csv` | Observed, text-predicted, and additional would-take-again gaps in Fig. 2B |
 | `si_sample_counts.csv` | Reviews and instructors by sample and group (SI Appendix, *Analysis Samples*) |
 | `si_supervised_decomposition.csv` | Star and binary decompositions with the supervised full-comment model |
+| `si_supervised_unpenalized_groups.csv` | The same decompositions with text weights estimated with unpenalized race-by-gender indicators |
 | `si_text_measure_vif.csv`, `si_text_measure_correlations.csv` | Collinearity among the seven text measures |
 | `si_text_weights_alternative_scores.csv` | Text-association models with original embedding scores and with LIWC-22 emotion words |
 | `si_bootstrap_correlation.csv` | Instructor-bootstrap replicates of the Fig. 2A correlation |
